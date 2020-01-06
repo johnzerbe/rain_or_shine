@@ -1,8 +1,12 @@
 import React, {useState} from 'react';
 
-function SearchBar({search}) {
+function SearchBar() {
     return (
-        <input type="text" name="search" placeholder="SEARCH" value={search}/>
+        <input 
+            type="text" 
+            name="search" 
+            placeholder="SEARCH" 
+        />
     )
 }
 
